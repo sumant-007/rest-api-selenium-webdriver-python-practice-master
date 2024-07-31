@@ -52,4 +52,16 @@ class CucumberBasket:
         new_count = self.count - count
         if new_count < 0:
             raise ValueError("Attempted to remove too many cucumbers")
-        self._count = new_count
+        self._count = new_count 
+
+    def remove(self, count=1):
+        new_count = self.count - count
+        if new_count < 0:
+            raise ValueError("Attempted to remove too many cucumbers")
+        self._count = new_count 
+    def remove(self, count=1):
+        new_count = self.count - count
+        if new_count < 0:
+            raise ValueError("Attempted to remove too many cucumbers")
+        self._count = new_count 
+    
